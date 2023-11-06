@@ -1,0 +1,17 @@
+name: project-name
+channels:
+  - conda-forge
+dependencies:
+  - numpy
+  - pandas
+  - scipy
+  - matplotlib
+  - scikit-learn
+  - jupyter
+  - jupyter-lab
+  - ipykernel
+  - ipywidgets
+  - pyprojroot
+  - pre-commit
+  - black
+  - nbstripout 
