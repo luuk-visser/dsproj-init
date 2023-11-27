@@ -8,10 +8,8 @@ dependencies:
   - matplotlib
   - scikit-learn
   - jupyter
-  - jupyter-lab
+  - jupyterlab
   - ipykernel
   - ipywidgets
   - pyprojroot
-  - pre-commit
-  - black
   - nbstripout 

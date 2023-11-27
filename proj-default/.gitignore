@@ -214,3 +214,8 @@ poetry.toml
 pyrightconfig.json
 
 # End of https://www.toptal.com/developers/gitignore/api/python,jupyternotebooks,linux,data
+
+nohup.out
+node_modules/
+package-lock.json
+package.json
