@@ -3,4 +3,4 @@ from pathlib import Path
 
 root = here()
 notebooks_dir = root / "notebooks"
-# data_dir = Path('~/data')
+# data_dir = Path.home() / 'data'
