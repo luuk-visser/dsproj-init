@@ -48,4 +48,3 @@ def get_data_dir(
 
 load_dotenv(dotenv_path=(root / ".env"))
 data_dir = get_data_dir()
-
