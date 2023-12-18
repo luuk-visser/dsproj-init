@@ -12,5 +12,6 @@ dependencies:
   - ipykernel
   - ipywidgets
   - pyprojroot
+  - python-dotenv
   - pre-commit
   - nbstripout 
