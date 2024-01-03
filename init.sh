@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 # Define a function to display the script's usage information
 display_help() {
     echo "Usage: $0 <project-name>"

@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 # Define a function to display the script's usage information
 vi environment.yml
 mamba env create -f environment.yml
