@@ -1,6 +1,3 @@
-# Created by https://www.toptal.com/developers/gitignore/api/python,jupyternotebooks,linux,data
-# Edit at https://www.toptal.com/developers/gitignore?templates=python,jupyternotebooks,linux,data
-
 ### Data ###
 *.csv
 *.dat
@@ -15,7 +12,7 @@
 *.vcf
 *.xml
 
-### JupyterNotebooks ###
+### Jupyter Notebooks ###
 # gitignore template for Jupyter Notebooks
 # website: http://jupyter.org/
 
@@ -211,12 +208,17 @@ poetry.toml
 .ruff_cache/
 
 # LSP config files
+.virtual_documents/
 pyrightconfig.json
 
-# End of https://www.toptal.com/developers/gitignore/api/python,jupyternotebooks,linux,data
-
-nohup.out
+# Node
 node_modules/
 package-lock.json
 package.json
-.virtual_documents/
+
+# nohup
+nohup.out
+
+# End
+
+
