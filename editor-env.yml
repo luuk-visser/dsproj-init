@@ -2,7 +2,7 @@ channels:
   - conda-forge
 dependencies:
   - jupyter-resource-usage
-  - jupyter-lsp
   - jupyterlab-lsp
   - ruff
   - python-lsp-ruff
+  - nbstripout
