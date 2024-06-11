@@ -1,3 +1,7 @@
+[build-system]
+build-backend = "setuptools.build_meta"
+requires = ["setuptools"]
+
 [project]
 name = "project_name"
 version = "0.0.1"
@@ -5,3 +9,6 @@ authors = [
   { name="Luuk Visser" },
 ]
 readme = "README.md"
+
+[tool.setuptools]
+packages=["project_name"]
