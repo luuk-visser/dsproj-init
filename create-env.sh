@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
-# Define a function to display the script's usage information
+
+set -eou pipefail
+
 vi environment.yml
 mamba env create -f environment.yml
 eval "$(conda shell.bash hook)"

@@ -1,4 +1,7 @@
 #!/usr/bin/env bash
+
+set -euo pipefail
+
 # Define a function to display the script's usage information
 display_help() {
     echo "Usage: $0 <project-name>"
@@ -35,7 +38,7 @@ default_project=$script_dir/proj-default
 
 echo "Initializing new project with name $project_name_kebab"
 cp -r $default_project/* .
-mv ./src/source_package ./src/$project_name_snake
+mv ./source_package ./$project_name_snake
 sed -i "s/project_name/$project_name_snake/g" pyproject.toml
 sed -i "s/project-name/$project_name_kebab/g" environment.yml
 $script_dir/create-env.sh
